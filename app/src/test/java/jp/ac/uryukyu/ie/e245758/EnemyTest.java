@@ -18,7 +18,7 @@ class EnemyTest {
         Hero demoHero = new Hero("デモ勇者", defaultHeroHp, 100);
         Enemy slime = new Enemy("スライムもどき", 10, 100);
         demoHero.attack(slime);
-        slime.attack(demoHero);
+        slime.attack(demoHero); 
         assertEquals(defaultHeroHp, demoHero.getHitPoint());
     }
 }
